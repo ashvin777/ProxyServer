@@ -1,5 +1,5 @@
 var request = require('request').defaults({
-  'proxy': 'http://proxy.tcs.com:8080'
+  'proxy': 'http://mylocalproxy.com:8080'
 });
 var express = require('express')
 var app = express();
